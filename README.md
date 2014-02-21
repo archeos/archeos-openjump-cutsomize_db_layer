@@ -18,3 +18,6 @@ Just a simple script for OpenJUMP, to add a customized database schema into a ne
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 To run the script, place it in your OpenJUMP BeanTools directory (e.g. /OpenJUMP-1.6.3-r3576-PLUS/lib/ext/BeanTools), than run OpenJUMP, go to Customize --> BeanTools and you should see a new command called arc-team_layer (if not, just click on the command RefreshScriptMenu and the new script should appear).
+
+For discussion about possible modification of the schema, you can refer to the specific post in ATOR: 
+http://arc-team-open-research.blogspot.it/2013/10/openjump-adding-vector-layer-with.html
