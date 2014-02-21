@@ -1,0 +1,18 @@
+/////////////////////////////////////////////////////////////
+/// Add a nwe customized layer with an Arc-Team db schema ///
+/// 		Luca Bezzi 2008-10-23			  ///
+/////////////////////////////////////////////////////////////
+
+fs = new FeatureSchema ();
+fs.addAttribute ("Geometry", AttributeType.GEOMETRY);
+fs.addAttribute ("name", AttributeType.STRING);
+fs.addAttribute ("layer", AttributeType.INTEGER);
+fs.addAttribute ("elevation", AttributeType.DOUBLE);
+fs.addAttribute ("description", AttributeType.STRING);
+fs.addAttribute ("style", AttributeType.STRING);
+fs.addAttribute ("label", AttributeType.STRING);
+fs.addAttribute ("area", AttributeType.STRING);
+fs.addAttribute ("period", AttributeType.STRING);
+
+fc = new FeatureDataset (fs);
+wc.layerManager.addLayer("MyCategory", "MyLayer", fc);
